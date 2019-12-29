@@ -1,0 +1,30 @@
+name: dask-k8s
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - python-blosc
+  - cytoolz
+  - dask
+  - nomkl
+  - ipywidgets
+  - jupyterlab
+  - nodejs
+  - dask-labextension
+  - python-graphviz
+  - s3fs
+  - gcsfs
+  - dask-ml
+  - pyarrow
+  - fastparquet
+  - python-snappy
+  - umap-learn
+  - py-xgboost
+  - dask-xgboost
+  - tpot
+  - matplotlib
+  - pip
+  - pip:
+      - blackcellmagic
+# post build
+# jupyter labextension install dask-labextension
